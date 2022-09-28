@@ -1,3 +1,8 @@
-p {
-	font-size: 100px;
+div {
+	font-size: 3em;
+}
+
+body {
+	background: #faaaaf;
+	color: #ffffff;
 }
