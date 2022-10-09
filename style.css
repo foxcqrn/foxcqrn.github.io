@@ -1,8 +1,12 @@
+* {
+	font-family: sans-serif;
+}
+
 div {
 	font-size: 3em;
 }
 
 body {
-	background: #faaaaf;
+	background: #ffaaaf;
 	color: #ffffff;
 }
