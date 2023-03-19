@@ -3,7 +3,7 @@
 }
 
 div {
-	font-size: 3em;
+	font-size: 2em;
 }
 
 body {
@@ -13,4 +13,9 @@ body {
 
 a {
 	color: #fcdcd2;
+}
+
+img.screenshot {
+	width: 30%;
+	display: inline;
 }
