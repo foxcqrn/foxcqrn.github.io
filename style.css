@@ -13,9 +13,30 @@ body {
 
 a {
 	color: #7dc2d9;
+	font-size: 1em;
+}
+a:hover {
+	font-size: 1.5em;
+	color: white;
 }
 
+#images {
+	display: flex;
+	width: 95%;
+	margin: 0 auto;
+}
 img.screenshot {
-	width: 30%;
+	width: 100%;
+}
+a.screenshot {
+	flex-basis: 100%;
+}
+img.screenshot,
+a.screenshot {
+	font-size: 0 !important;
 	display: inline;
+	margin: 2px;
+}
+a.screenshot:hover {
+	flex-basis: 600%;
 }

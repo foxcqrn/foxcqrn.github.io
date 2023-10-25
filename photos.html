@@ -8,15 +8,13 @@
 		<div>
 			<a href="index.html">< back</a>
 			<h1>Picture Gallery</h1><br>
-			<img class="screenshot" src="./assets/1.png">
-			<img class="screenshot" src="./assets/2.png">
-			<img class="screenshot" src="./assets/3.png">
-			<img class="screenshot" src="./assets/4.png">
-			<img class="screenshot" src="./assets/5.png">
-			<img class="screenshot" src="./assets/6.png">
-			<img class="screenshot" src="./assets/7.png">
-			<img class="screenshot" src="./assets/8.png">
-			<img class="screenshot" src="./assets/9.png">
+			<div id="images"></div>
 		</div>
 	</body>
+	<script>
+		let container = document.getElementById('images');
+		for (let i = 1; i <= 9; i++) {
+			container.innerHTML += `<a class="screenshot" href="./assets/${i}.png" target="_blank"><img class="screenshot" src="./assets/${i}.png"></a>`;
+		}
+	</script>
 </html>
